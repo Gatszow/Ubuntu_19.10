@@ -1,0 +1,143 @@
+*** #1: See What’s New ***
+
+Each new Ubuntu release ships with major differences from the last one, so swotting up on what’s change is always a good place to start.
+
+Ubuntu 19.10 features a stack of improvements, including app folder organisation and a new ‘light’ look, experimental ZFS install support, GNOME 3.34, and the latest Linux 5.3 kernel.
+
+We made a short video to showcase all of the major differences that are new in this release, so check it out!
+
+
+*** #2: Check for Updates ***
+
+If you didn’t tick the “download updates while installing ubuntu” box during install — don’t worry: many people don’t — then the absolute first thing to do after installing Ubuntu 19.10 is to check for and install pending updates.
+
+This is especially important if you’re not reading this list on release day, but several weeks later as there WILL be security patches and bug fixes waiting to be installed!
+
+It’s easy to check for and install updates on Ubuntu:
+
+Open “Software Updater” from the Applications screenInstall any/all updates listed
+
+
+*** #3: Unlock Extra Customisation ***
+
+GNOME Tweaks is an indispensable tool that I think EVERY Ubuntu user should install, even if they rarely use it.
+
+Why? Because the breadth of Ubuntu customisation options that GNOME Tweaks unlocks is exhaustive and, in a few cases, pretty essential too.
+
+Amongst others things, GNOME Tweaks gives you options to:
+
+Change GTK & icon themeMove window buttons to the leftChange desktop font + sizeAutomatically new windowsTile windows when dragged to screen edgeShow the current weekday in the top bar clock
+
+To install GNOME Tweaks on Ubuntu using the Ubuntu Software app you can search for it by name or hit the button below (and then follow the on-screen prompts):
+
+
+*** #4: Ubuntu Dock Tweaks ***
+
+The Ubuntu Dock (the icon bar on the left of the screen) makes it easy to launch and switch between open windows.
+
+But you can make it better.
+
+For instance, you may want to enable minimise on click so that when you click on an open app’s icon in the Ubuntu Dock it “minimises” the window rather than give it focus.
+
+To turn this (rather essential) behaviour on just run the following command in a new Terminal window (ctrl + alt + t):
+
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
+
+New for 19.10, you can add a Trash can to the Ubuntu Dock. This might help you stay on top of cleaning out old files regularly as the icon changes appearance when there’s cruft to be cleaned! 
+
+To add a trash can to the Ubuntu Dock run this command in a new terminal:
+
+gsettings set org.gnome.shell.extensions.dash-to-dock show-trash true
+
+Once you’v enabled the trash icon on the dock you may want to remove the trash icon from the Ubuntu desktop. To do this, run:
+
+gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
+
+You can go even further, too! 
+
+To move the Ubuntu dock to the bottom of the screen (or the right), or to turn on auto-hide so that the dock gets out of the way when a window touches it, just head to the Settings > Dock panel and toggle the relevant switches.
+
+
+*** #5: Laptop Tweaks ***
+
+If you use Ubuntu 19.10 on a laptop (like I do) then things should mostly work out of the box. But here are a couple of tips to help you fine-tune the Eoan Ermine experience to better suit portable form-factors.
+
+First, enable show battery percentage in the Top Bar to more accurately gauge your remaining power. To do this use GNOME Tweaks (see step #3):
+
+Open GNOME Tweaks > Top BarSlide “Battery Percentage” setting to ‘on’
+
+I don’t like the direction my laptop touchpad scrolls by default (so-called ‘Australian scrolling’); I prefer to scroll a page vertically in the opposite way to my gesture. This is easy to enable:
+
+Go to Settings > Devices > Mouse & TouchpadSlide “Natural Scrolling” setting  to ‘on’
+
+A rather simple tweak for a much saner scroll experience!
+
+Finally, I like to increase the time it takes for the lock screen to kick in when I leave my device idle. I use my laptop in public cafes a lot and often leave it unattended while I get another drink. 
+
+Go to Settings > Devices > PrivacyAdjust “Screen Lock” setting
+
+
+*** #6: Swap Image Viewer ***
+
+Ubuntu’s default image viewer is perfectly acceptable for most people’s needs, but it lacks a decent set of accessible editing features (it is literally a viewer).
+
+If you regularly rotate, adjust and/or crop images, I recommend making Shotwell Image Viewer the default image tool.
+
+Shotwell Image Viewer puts a useful set of editing tools right at your finger tips, including options to rotate, crop, straighten and one-click enhance — perfect!
+
+
+*** #7: Choose an Avatar ***
+
+A lot of Ubuntu users do not pick a user avatar — and that’s fine because, most often than not, you’re the only person who uses your *buntu machine.
+
+But seeing a image that reminds you of you at the login screen is a super easy way to give your install a touch more personality; put your spin on things, etc. 
+
+Greeting you there at the login screen, letting you know it’s YOUR session with YOUR apps and your DATA. 
+
+So take a few minutes to pick an appropriate images for your account in Settings > Users.
+
+
+*** #8: Enable Flatpak ***
+
+Ubuntu 19.10 has a tonne of great open source software in its archives, and  thanks to Snap support out-of-the-box, makes it easy to install apps like Spotify, Visual Studio Code, BlueMail, and more.
+
+But to have even more choice, I recommend that you enable Flatpak and unlock access to the Flathub app store.
+
+Flatpak is a packaging format that works across different Linux distributions. And app packaged as Flatpak can, in theory, run on Ubuntu, Fedora, Manjaro, and more.
+
+Our guide on how to install Flatpak on Ubuntu walks though the basic set-up, and recommends adding the Flathub app store where most (but not all) Flatpak apps can be found.
+
+With Flatpak is installed on Ubuntu you’ll be able snag some truly terrific tools from Flathub, Some of my favourites:
+
+Foliate (ebook reader app with lots of options)Drawing (a simple ‘Microsoft Paint’ alternative)Lollypop (a desktop music player with neat UI)Authenticator (2FA code generator that supports lots of services)ImCompressor (a lossless image optimisation tool)
+
+But that’s only a handful. Plenty of other apps are available, with more being added regularly.
+
+
+*** #9: Learn Keyboard Shortcuts ***
+
+We recently looked over our 14 Ubuntu keyboard shortcuts and made the handy graphic above to highlight the very ones everyone should try and remember — they can really help improve your productivity:
+
+
+*** #10: Stock up on Extra Software ***
+
+By this point your Ubuntu 19.10 install should be purring like a kitten — but you don’t have to stop here.
+
+Why not furnish your fresh install out with of the best open source software on offer? Just search for the following apps in Ubuntu Software to install them:
+
+GIMP (decent Photoshop alternative)Kdenlive (versatile video editor)Visual Studio Code (powerful code editing)Blender (state-of-the-art graphics creation)Geary (modern email client)Chromium (web browser)
+
+And there’s a swathe of other non-free software you may want to use too, including:
+
+Google Chrome (a unicorn that sings)Spotify (music streaming service)Skype (messaging service)Steam (much loved gaming client)Discord (voice chat)Slack (team messaging)
+
+
+*** Bonus Tip: Experimental Fractional Scaling ***
+
+My laptop has a FHD display at a decent res, but most applications (window buttons, fonts, etc) look a bit too small at 100% default in the standard desktop session (using Xorg).
+
+However, the only other scaling value on offer in Ubuntu 19.10 is 200% — and that makes everything look too big!
+
+If you’re in the same boat you may want to enable fractional scaling in Ubuntu. When turned on, you can access scaling values inbetween, such as 125%, 150%, etc. 
+
+Now, I have to want that in this option (while useful) is not default for a reason. There is a chance it can impact (negatively) on resource usage — something you’ll definitely want to avoid on a laptop.
