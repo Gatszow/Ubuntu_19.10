@@ -11,6 +11,12 @@ def correct(file_name: str):
             print(row, file=f, end='')
 
 
+def read(file_name: str):
+    with open(file_name, encoding='utf-8') as f:
+        for row in f:
+            print(row, end='')
+
+
 class Header(Exception):
     pass
 
@@ -57,3 +63,4 @@ with open('now.txt', 'w', encoding='utf-8') as file:
                 pass
 
 correct('now.txt')
+read('now.txt')
